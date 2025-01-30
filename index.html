@@ -9,6 +9,7 @@
 		<title>Rowena V. Andres Portfolio</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta background-color="white">
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
@@ -19,11 +20,14 @@
 
 				<!-- Intro -->
 					<div id="intro">
-						<h1>Rowena V. Andres</h1>
+						<h1 font-border="#824d1d">Rowena V. Andres</h1>
 						<p> Software Developer | Data Analyst
-							<ul>
-								Skilled in Software Development and Data Analysis.
-							</ul>
+              <ul>
+                Experienced Software Developer illuminating the path to innovative solutions. 
+                With a keen eye for detail and a passion for problem-solving, I thrive behind the scenes, 
+                transforming complex challenges into seamless experiences and ensuring others shine in their success. 
+                Let's simplify the world of tech together!
+              </ul>
 						</p>
 					</div>
 
@@ -36,8 +40,9 @@
 				<!-- Nav -->
 					<nav id="nav">
 						<ul class="links">
-							<li class="active"><a href="index.html">Projects</a></li>
-						</ul>
+              <li class="active"><a href="#software-dev">Software Development</a></li>
+							<li><a href="#data-analysis">Data Analysis</a></li>	
+            </ul>
 						<ul class="icons">
 							<li><a href="https://www.linkedin.com/in/rowenavandres/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
 							<li><a href="https://github.com/rowenavandres" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
@@ -46,115 +51,135 @@
 					</nav>
 
 				<!-- Main -->
-					<div id="main">
+        <div id="main">
+          <!-- Software Development Projects Section -->
+          <section id="software-dev" class="active tab-content">
+            <h2 class="section-heading">Software Development Projects</h2>
+            <section class="posts featured">
+              <article>
+                <header class="major">
+                  <h2><a href="https://www.liitcare.com"> LiiT Care Connect </a></h2>
+                  <p>
+                    LiiT Care Connect is a comprehensive digital platform that bridges the gap between parents and healthcare service providers. 
+                    Contribute in building an intuitive, accessible web application that streamlines the process of finding, connecting with, 
+                    and managing relationships with healthcare providers, making quality care more accessible to families.
+                  </p>
+                </header>
+                <div class="row" class-name="grid grid-colmns-2">
+                  <a href="https://www.liitcare.com" class="image fit"><img src="images/childcare.png" alt="" /></a>
+                </div>
+              </article>
+              <article>
+                <header>
+                  <h2><a href="https://uniondigitalbank.io/en"> UnionDigital Bank <br/> Backend Payment and Transfer </a></h2>
+                </header>
+                <div class="row" class-name="grid grid-colmns-2">
+                  <a href="https://uniondigitalbank.io/en" class="image fit"><img src="images/banking.png" alt="" /></a>
+                  <p>
+                    Led the development of critical payment and transfer functionalities for a mobile banking application, focusing on secure integration with the VAULT core banking system. 
+                    Responsible for designing, implementing, and maintaining backend microservices that handle financial transactions and user authentication.
+                  </p>
+                </div>
+              </article>
+              <article>
+                <header>
+                  <h2><a href="https://github.com/rowenavandres/serverless-to-do-list">ToDo List API</a></h2>
+                </header>
+                <a class="image fit"><img src="images/todo.jpeg" alt="" /></a>
+                <p>The project successfully delivered a fully functional to-do list REST API, demonstrating key principles of RESTful architecture. The use of Node.js and PostgreSQL ensured efficient handling of tasks and robust data management. The API provided a solid foundation for building scalable and maintainable applications.</p>
+                <ul class="actions special">
+                  <li><a href="https://github.com/rowenavandres/serverless-to-do-list" class="button">View Project</a></li>
+                </ul>
+              </article>
+            </section>
+          </section>
 
-						<!-- Featured Post -->
-							<article class="post featured">
-								<header class="major">
-									<h2><a href="#">Data Analysis in Python</a></h2>
-									<p>Given the surgery data sets, this project analyze what process in emergency surgery took much time.</p>
-								</header>
-								<a href="#" class="image main"><img src="images/surgery.jpg" alt="" /></a>
-								<ul class="actions special">
-									<li><a href="https://github.com/rowenavandres/SurgeryProcessAnalysis/tree/master" class="button large">View Project</a></li>
-								</ul>
-							</article>
+          <!-- Data Analysis Projects Section -->
+          <section id="data-analysis" class="tab-content">
+            <h2 class="section-heading">Data Analysis Projects</h2>
+            <article class="post featured">
+              <header class="major">
+                <h2><a href="#">Data Analysis in Python</a></h2>
+                <p>Given the surgery data sets, this project analyze what process in emergency surgery took much time.</p>
+              </header>
+              <a href="#" class="image main"><img src="images/surgery.jpg" alt="" /></a>
+              <ul class="actions special">
+                <li><a href="https://github.com/rowenavandres/SurgeryProcessAnalysis/tree/master" class="button large">View Project</a></li>
+              </ul>
+            </article>
+            <section class="posts">
+              <article>
+                <header>
+                  <h2><a href="https://github.com/rowenavandres/USClinicalProviderAnalysis2009">US Clinical Provider Analysis<br />Year 2009</a></h2>
+                </header>
+                <a class="image fit"><img src="images/patient-referrals-banner.jpg" alt="" /></a>
+                <p>The Capstone project successfully provided a comprehensive analysis of clinical provider referrals for 2009. The use of Python, SQL, sklearn, and Tableau enabled a thorough examination of the data, resulting in valuable insights and actionable recommendations.</p>
+                <ul class="actions special">
+                  <li><a href="https://github.com/rowenavandres/USClinicalProviderAnalysis2009" class="button">View Project</a></li>
+                </ul>
+              </article>
+              <article>
+                <header>
+                  <h2><a href="https://github.com/rowenavandres/CanadaLabourMarket2024Analysis">Canada Labour Market 2024</a></h2>
+                </header>
+                <a class="image fit"><img src="images/canada.jpg" alt="" /></a>
+                <p>The project successfully provided a detailed understanding of the Canada labor market in 2024. The use of SQL and Tableau facilitated a thorough examination of the data, resulting in valuable insights and actionable recommendations.</p>
+                <ul class="actions special">
+                  <li><a href="https://github.com/rowenavandres/CanadaLabourMarket2024Analysis" class="button">View Project</a></li>
+                </ul>
+              </article>
+            </section>
+          </section>
 
-						<!-- Posts -->
-							<section class="posts">
-								<article>
-									<header>
-										<h2><a href="https://github.com/rowenavandres/ibbcsw/tree/main">International Bible Baptist Church <br/> SW Calgary Website</a></h2>
-									</header>
-									<a href="https://github.com/rowenavandres/ibbcsw" class="image fit"><img src="images/bible.jpg" alt="" /></a>
-									<p>This project involved the end-to-end development of a website using the Python Django framework and SQLite database. The development process encompassed all phases from system requirements analysis to product deploymen.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/rowenavandres/ibbcsw" class="button">View Project</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<h2><a href="https://github.com/rowenavandres/USClinicalProviderAnalysis2009">US Clinical Provider Analysis<br />
-										Year 2009</a></h2>
-									</header>
-									<a class="image fit"><img src="images/patient-referrals-banner.jpg" alt="" /></a>
-									<p>The Capstone project successfully provided a comprehensive analysis of clinical provider referrals for 2009. The use of Python, SQL, sklearn, and Tableau enabled a thorough examination of the data, resulting in valuable insights and actionable recommendations. The project demonstrated the importance of data cleaning, exploration, and visualization in understanding and improving healthcare referral processes.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/rowenavandres/USClinicalProviderAnalysis2009" class="button">View Project</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<h2><a href="https://github.com/rowenavandres/serverless-to-do-list">ToDo List API</a></h2>
-									</header>
-									<a class="image fit"><img src="images/todo.jpeg" alt="" /></a>
-									<p>The project successfully delivered a fully functional to-do list REST API, demonstrating key principles of RESTful architecture. The use of Node.js and PostgreSQL ensured efficient handling of tasks and robust data management. The API provided a solid foundation for building scalable and maintainable applications.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/rowenavandres/serverless-to-do-list" class="button">View Project</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<h2><a href="https://github.com/rowenavandres/CanadaLabourMarket2024Analysis">Canada Labour Market 2024</a></h2>
-									</header>
-									<a class="image fit"><img src="images/canada.jpg" alt="" /></a>
-									<p>The project successfully provided a detailed understanding of the Canada labor market in 2024. The use of SQL and Tableau facilitated a thorough examination of the data, resulting in valuable insights and actionable recommendations. The visualizations enabled locals and immigrants to grasp the current labor market situation and make informed decisions based on the analysis.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/rowenavandres/CanadaLabourMarket2024Analysis" class="button">View Project</a></li>
-									</ul>
-								</article>
-							</section>
-
-
-						<!-- Technology Skills -->
-						<div class="table-wrapper"  id="skills-table">
-							<h3>SKILLS</h3>
-							<table style="width: 100%;">
-								<tbody>
-									<tr>
-										<td><b>Programming Languages: </b></td>
-										<td>Python, Node.js, C, C++, Javascript, Object-oriented Programming</td>
-									</tr>
-									<tr>
-										<td><b>Databases: </b></td>
-										<td>Microsoft SQL Server, PostgreSQL, MySQL, SQLite, AWS RDS</td>
-									</tr>
-									<tr>
-										<td><b>Data Analysis: </b></td>
-										<td>Tableau, PowerQuery, Python, Data Collection, Data Validation, Data Profiling, Data Visualization, Data Cleaning</td>
-									</tr>
-									<tr>
-										<td><b>System & Architecture: </b></td>
-										<td>Microservices, Even-driven Architecture, Serverless Computing, REST APIs, AWS Services</td>
-									</tr>
-									<tr>
-										<td><b>Quality Control: </b></td>
-										<td>Unit Testing, Integration Test, Postman, Mocha, Jest</td>
-									</tr>
-									<tr>
-										<td><b>Source Control: </b></td>
-										<td>Git, Bitbucket, GitHub, SVN</td>
-									</tr>
-									<tr>
-										<td><b>Project Management & Collaboration: </b></td>
-										<td>Agile Framework, Scrum, Atlassian Suite, JIRA, Confluence, Slack, MS Team</td>
-									</tr>
-									<tr>
-										<td><b>Messaging Queues: </b></td>
-										<td>Kafka, AWS SQS and SNS</td>
-									</tr>
-									<tr>
-										<td><b>Structure Data Processing: </b></td>
-										<td>CSV, JSON, XML</td>
-									</tr>
-									<tr>
-										<td><b>Microsoft Suite: </b></td>
-										<td>Excel, Word, PowerPoint, Outlook</td>
-									</tr>
-								</tbody>
-							</table>
-						</div>	
-					</div>
+          <!-- Technology Skills -->
+          <div class="table-wrapper" id="skills-table">
+            <h3>SKILLS</h3>
+            <table style="width: 100%;">
+              <tbody>
+                <tr>
+                  <td><b>Programming Languages: </b></td>
+                  <td>Python, Node.js, C, C++, Javascript, Object-oriented Programming</td>
+                </tr>
+                <tr>
+                  <td><b>Databases: </b></td>
+                  <td>Microsoft SQL Server, PostgreSQL, MySQL, SQLite, AWS RDS</td>
+                </tr>
+                <tr>
+                  <td><b>Data Analysis: </b></td>
+                  <td>Tableau, PowerQuery, Python, Data Collection, Data Validation, Data Profiling, Data Visualization, Data Cleaning</td>
+                </tr>
+                <tr>
+                  <td><b>System & Architecture: </b></td>
+                  <td>Microservices, Even-driven Architecture, Serverless Computing, REST APIs, AWS Services</td>
+                </tr>
+                <tr>
+                  <td><b>Quality Control: </b></td>
+                  <td>Unit Testing, Integration Test, Postman, Mocha, Jest</td>
+                </tr>
+                <tr>
+                  <td><b>Source Control: </b></td>
+                  <td>Git, Bitbucket, GitHub, SVN</td>
+                </tr>
+                <tr>
+                  <td><b>Project Management & Collaboration: </b></td>
+                  <td>Agile Framework, Scrum, Atlassian Suite, JIRA, Confluence, Slack, MS Team</td>
+                </tr>
+                <tr>
+                  <td><b>Messaging Queues: </b></td>
+                  <td>Kafka, AWS SQS and SNS</td>
+                </tr>
+                <tr>
+                  <td><b>Structure Data Processing: </b></td>
+                  <td>CSV, JSON, XML</td>
+                </tr>
+                <tr>
+                  <td><b>Microsoft Suite: </b></td>
+                  <td>Excel, Word, PowerPoint, Outlook</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>	
+        </div>
 
 				<!-- Footer -->
 					<footer id="footer">
